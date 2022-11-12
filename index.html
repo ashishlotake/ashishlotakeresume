@@ -11,35 +11,60 @@
     <link rel="stylesheet" type="text/css" href="print.css" media="print" />
 
     <meta property="og:title" content="Ashish Lotake" />
-    <meta name="description" content="Official Resume of Ashish Lotake.">
+    <meta name="description" content="A dedicated and aspiring data scientist and machine learning engineer, wish to work for an institution that offers technical and personal growth.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ashish Resume</title>
-
+    <title>Ashish Lotake Resume</title>
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.1/dist/iconify-icon.min.js"></script>
 
     <!-- favicons
     ================================================== -->
-    <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
-    <link rel="manifest" href="../site.webmanifest">
     
 
+    <link rel="shortcut icon" href="/favicons/favicon.ico" />
+    <link rel="manifest" href="/favicons/site.webmanifest" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicons/favicon-16x16.png"
+    />
+    <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#59aed1" />
+    <meta name="msapplication-TileColor" content="#2d89ef" />
+    <meta name="msapplication-config" content="/favicons/browserconfig.xml" />
+    <meta name="theme-color" content="#ffffff" />
+
+
   </head>
-  <body lang="en">
+  
+  <body lang="en" class="content01" style="background-color:#111111;">
     <!-- to print pdf -->
     <div class="noprint">
-      <!-- <center> -->
-        <div style="height: 1.3em">
+      <center>
+        <div style="height: 2em">
           &nbsp;
           <br />
-          <button onclick="window.print();"><small>Save as PDF</small></button>
+          <button class="button1" onclick="window.print();">Save as PDF</button>
         </div>
-      <!-- </center> -->
+      </center>
     </div>
-    <section id="main">
-      <header id="title">
-        <h1>Ashish Lotake</h1>
-        <span class="subtitle">Data Scientist, Machine Learning, Artificial Intelligence, Cloud Computing &amp; Docker</span>
+    <section id="main" >
+      <header id="title" style="width: 520px;">
+        <h1 style=" font-weight: bold; color: #121212; text-transform: uppercase;">Ashish Lotake</h1>
+        <!-- <span class="subtitle">Data Scientist / Analyst and Machine Learning &amp; Artificial Intelligence Engineer</span>
+        <br><br> -->
+        <span class="subtitle" >A dedicated and aspiring data scientist and machine learning engineer, wish to
+          work for an institution that offers technical and personal growth.</span>
       </header>
       <section class="main-block">
         <h2><i class="fa fa-suitcase"></i>Work Experience / Internships</h2>
@@ -54,9 +79,10 @@
             </header>
             <div>
               <ul>
-                <li>An a part of my internship, here I spent majority of time developing chat-bots using open source NLP tool RASA Open Source</li>
-                <!-- <li>Use a popular machine learning library to solve problems from various domains.</li> -->
-                <li>Part of a team responsible for creating a curriculum for machine learning for finance.</li>
+                <li>As a part of my internship, where I spent the majority of my time developing chatbots using open
+                  source NLP tool RASA Open Source.</li>
+                <li> I was also part of a team responsible for creating a curriculum for
+                  machine learning for finance.</li>
               </ul>
             </div>
           </div>
@@ -71,12 +97,32 @@
           <div class="decorator"></div>
           <div class="details">
             <header>
-              <h3>General Q&A Conversational ChatBot</h3>
-              <span class="place"><a target="_blank" href="https://github.com/ashishlotake/rasa_chat_bot"> Git Source </a></span>
+              <h3>Auutomated data labelling system</h3>
+              <span class="place"><a target="_blank" href="https://github.com/ashishlotake/active-labelling-system-project"><iconify-icon icon="fa-brands:github-alt" width="8"></iconify-icon> Git Source</a> / <a target="_blank" href="https://ashishlotake-active-labelling-system-project-app-14t6bq.streamlitapp.com/"> Web App ↗ </a></span>
             </header>
             <div>
               <ul>
-                <li>I have created a genreal Q&A bot, which answer general customers queries</li>
+                <li>This is an automated labeling system, the app will label the input images from
+                  the user and then correctly label the images by placing them in their category folder and giving the user a zip file,
+                  and at the same time user can label images if not satisfied with the result and then retrain the original model, to
+                  improve the models' generalization accuracy</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="blocks">
+          <div class="date"></div>
+          <div class="decorator"></div>
+          <div class="details">
+            <header>
+              <h3>General Q&A Conversational ChatBot</h3>
+              <span class="place"><a target="_blank"  href="https://github.com/ashishlotake/rasa_chat_bot"> <iconify-icon icon="fa-brands:github-alt" width="8"></iconify-icon> Git Source</a> </span>
+            </header>
+            <div>
+              <ul>
+                <li>This is a Q&A chatbot, which is capable of answering user questions, the
+                  model is implemented using the open-source tool RASA. This can be easily extended to a full fedge Q&A bot, we
+                  just need to add a few examples of intent and the underlying NLU model and answer user's questions.</li>
               </ul>
             </div>
           </div>
@@ -87,7 +133,7 @@
           <div class="details">
             <header>
               <h3>Resume Filtering System</h3>
-              <span class="place"><a target="_blank" href="https://github.com/ashishlotake/Resume-Filtering-System"> Git Source </a></span>
+              <span class="place"><a target="_blank" href="https://github.com/ashishlotake/Resume-Filtering-System"><iconify-icon icon="fa-brands:github-alt" width="8"></iconify-icon> Git Source</a> / <a target="_blank" href="https://ashishlotake-resume-filtering-system-app-38ajgg.streamlitapp.com/">Web App ↗  </a></span>
             </header>
             <div>
               <ul>
@@ -98,34 +144,18 @@
             </div>
           </div>
         </section>
-        <section class="blocks">
-          <div class="date"></div>
-          <div class="decorator"></div>
-          <div class="details">
-            <header>
-              <h3>Which Anime to Watch</h3>
-              <span class="place"><a target="_blank" href="https://github.com/ashishlotake/Which_anime_to_watch"> Git Source </a></span>
-            </header>
-            <div>
-              <ul>
-                <li>I will give you a random anime based on your selected option, 90% of animes have less than 39 episodes, so you can easily finish a series in the weekend.</li>
-              </ul>
-            </div>
-          </div>
-        </section>
       </section>
 
       <!-- educations -->
       <section class="main-block concise">
         <h2><i class="fa fa-graduation-cap"></i> Education</h2>
         <section class="blocks">
-          <div class="date"><span>2022</span><span>2021</span></div>
+          <div class="date"><span>Present</span><span>2021</span></div>
           <div class="decorator"></div>
           <div class="details">
             <header>
               <h3>Diploma in Artificial Intelligence & Machine Learning </h3> 
-              <i class="place"> 79% First Semester </i>
-              <!-- <span class="place"> University of Hyderabad</span> -->
+              <span class="place">Present </span>
               <span class="location">University of Hyderabad, IN</span>
             </header>
             <div>This course covers Python, SQL, Machine learning (Supervised and Unsupervised), Neural networks, Advance Optimization Methods and Deep Learning( CNN, RNN)</div>
@@ -137,58 +167,58 @@
           <div class="details">
             <header>
               <h3>B.E. in Mechanical Engineering</h3>
-              <!-- <span class="place">Savitribai Phule Pune University</span> -->
+              <span class="place">GPA - 8.3</span>
               <span class="location">Savitribai Phule Pune University, Maharashtra, IN</span>
             </header>
-            <!-- <div>President's Scholarship</div> -->
           </div>
         </section>
       </section>
 
       <!-- Certification -->
-      <section class="main-block concise">
+      <section class="main-block concise row">
         <h2><i class="fa fa-certificate"></i>Certification</h2>
-        <!-- <h2><i class="fa fa-star"></i>  -->
-        <section class="blocks">
+        <section class="blocks column">
           <div class="date"></div>
           <div class="decorator"></div>
           <div class="details">
             <header>
-              <h3>Python for Everybody Specialization</h3>
-              <span class="place">University of Michigan</span>
-            </header>
-            <!-- <div>This course covers Python, SQL, Machine learning (Supervised and Unsupervised), Neural networks, Advance Optimization Methods and Deep Learning( CNN, RNN)</div> -->
-          </div>
-        </section>
-        <section class="blocks">
-          <div class="date"></div>
-          <div class="decorator"></div>
-          <div class="details">
-            <header>
-              <h3>Learn to Program: Crafting Quality Code</h3>
-              <span class="place">University of Toronto</span>
-            </header>
-            <!-- <div>President's Scholarship</div> -->
-          </div>
-        </section>
-        <section class="blocks">
-          <div class="date"></div>
-          <div class="decorator"></div>
-          <div class="details">
-            <header>
-              <h3>AWS Certified Cloud Practitioner (CLF-C01)</h3>
+              <a href="https://www.credly.com/badges/a2f0aa3f-1f1e-4804-b74e-766c30790bb4/public_urlF">
+              <h3>AWS Certified Cloud Practitioner (CLF-C01) ↗ </h3>
               <span class="place">AWS Cloud</span>
+            </a>
             </header>
-            <!-- <div>President's Scholarship</div> -->
+          </div>
+        </section>
+        <section class="blocks column">
+          <div class="date"></div>
+          <div class="decorator"></div>
+          <div class="details">
+            <header>
+              <a href="https://www.coursera.org/account/accomplishments/certificate/MWPBS5CGH2QF">
+              <h3>Python for Everybody Specialization ↗</h3>
+              <span class="place">University of Michigan</span>
+            </a>
+            </header>
+          </div>
+        </section>
+        <section class="blocks column">
+          <div class="date"></div>
+          <div class="decorator"></div>
+          <div class="details">
+            <header>
+              <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/EZNS6VFW9H4U">
+              <h3>Learn to Program: Crafting Quality Code ↗</h3>
+              <span class="place">University of Toronto</span>
+            </a>
+            </header>
           </div>
         </section>
       </section>
 
+
       <!-- Community   -->
-    
       <section class="main-block concise">
         <h2><i class="fa fa-users"></i>contribution to community </h2>
-        <!-- <h2><i class="fa fa-star"></i>  -->
         <section class="blocks">
           <div class="date"><span>present</span><span>2021</span></div>
           <div class="decorator"></div>
@@ -210,11 +240,10 @@
               <span class="place">Youth Empowerment Foundation</span>
               <span class="location">Remote</span>
             </header>
-            <div>I under the guidance of YEF spread the awareness of how people were affected by COVID, and we also helped in raising money to fulfil their basic daily needs(food, clothes). We also spread awareness of the importance of sanitary pads and raise funds to provide sanitary pads to every girl/woman in our reach.</div>
+            <div>Raising money to fulfil daily needs(food, clothes) of people were affected by COVID. We also spread awareness of the importance of sanitary pads and raise funds.</div>
           </div>
         </section>
       </section>
-      
     </section>
     
     
@@ -225,139 +254,129 @@
     <!-- sidebar -->
     <aside id="sidebar">
       <div id="content">
-        <!-- <img src="./images/images/ashish.jpg" class="ribbon"/> -->
+        <img src="./images/images/ashish.jpg" class="ribbon"/>
     </div>
-
-      <!-- Technical skills -->
+      <!-- Contact -->
       <div class="side-block skills">
         <h1>contact info</h1>
         <ul>
           <li>
-						<i class="fa fa-globe"></i>						<a target="_blank" href="https://www.ashishlotake.com">ashishlotake.com</a>
+						<i class="fa fa-globe"></i>
+            <a target="_blank" href="https://www.ashishlotake.com">ashishlotake.com ↗  </a>
 					</li>          
           <li>
-            <i class="fa fa-linkedin"></i>						<a target="_blank" href="https://www.linkedin.com/in/ashish-lotake/">linkedin.com/in/ashish</a>
+            <i class="fa fa-linkedin"></i>
+            <a target="_blank" href="https://www.linkedin.com/in/ashish-lotake/">linkedin.com/in/ashish ↗</a>
           </li>
-          <li><i class="fa fa-envelope"></i>						<a target="_blank" href="mailto:ashish@ashishlotake.com">ashish@ashishlotake.com</a>
           </li>
           <li>
 						<i class="fa fa-git"></i>
-						<a href="https://github.com/ashishlotake">github.com/ashishlotake</a>
+						<a href="https://github.com/ashishlotake">github.com/ashishlotake ↗ </a>
 					</li>
+          <li><i class="fa fa-envelope"></i>
+            <a target="_blank" href="mailto:ashish@ashishlotake.com">ashish@ashishlotake.com ↗ </a>
+          <li>
+						<i class="fa fa-phone" aria-hidden="true"></i>
+            <a target="_blank" href="tel:+918888588053">+91-8888588053</a>
+					</li>
+          <li>
+						<i class="fa fa-location-arrow" aria-hidden="true"></i>
+            <a >Ahmednagar,Maharashtra IN</a>
+					</li> 
         </ul>
-				<h1>Technical Skills</h1>
+
+      <!-- Tools -->
+				<h1>Tools</h1>
 				<ul>
           <li>
-						<!-- <img src="./images/images/python.webp" width="14"> -->
-            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img"  width="1.5em" height="1.2em"  preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><g fill="none"><g fill="black" clip-path="url(#svgIDa)"><path d="M11.914 0C5.82 0 6.2 2.656 6.2 2.656l.007 2.752h5.814v.826H3.9S0 5.789 0 11.969c0 6.18 3.403 5.96 3.403 5.96h2.03v-2.867s-.109-3.42 3.35-3.42h5.766s3.24.052 3.24-3.148V3.202S18.28 0 11.913 0ZM8.708 1.85c.578 0 1.046.47 1.046 1.052c0 .581-.468 1.051-1.046 1.051c-.579 0-1.046-.47-1.046-1.051c0-.582.467-1.052 1.046-1.052Z"/><path d="M12.087 24c6.092 0 5.712-2.656 5.712-2.656l-.007-2.752h-5.814v-.826h8.123s3.9.445 3.9-5.735c0-6.18-3.404-5.96-3.404-5.96h-2.03v2.867s.109 3.42-3.35 3.42H9.452s-3.24-.052-3.24 3.148v5.292S5.72 24 12.087 24Zm3.206-1.85c-.579 0-1.046-.47-1.046-1.052c0-.581.467-1.051 1.046-1.051c.578 0 1.046.47 1.046 1.051c0 .582-.468 1.052-1.046 1.052Z"/></g><defs><clipPath id="svgIDa"><path fill="#fff" d="M0 0h24v24H0z"/></clipPath></defs></g></svg>
+            <iconify-icon icon="logos:python" width="14"></iconify-icon>
 						Python
 					</li>
           <li>
-            <!-- <img src="./images/images/numpy.png" width="14"> -->
-            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img"  width="1.5em" height="1.2em"  preserveAspectRatio="xMidYMid meet" viewBox="0 0 480 512"><path fill="black" d="m203.557 104.031l-85.513-43.17l-93.883 46.856l87.846 44.112l91.55-47.798zm39.225 19.791l89.665 45.29l-93.025 46.711l-87.982-44.177l91.342-47.824zm119.766-62.317l92.128 46.212l-82.406 41.376l-89.848-45.335l80.126-42.253zm-39.66-19.902L239.948 0l-82.036 40.96l85.468 43.098l79.508-42.455zm-64.835 357.195V512l100.466-50.15l-.091-113.248l-100.375 50.196zm100.33-89.72l-.118-112.051l-100.212 49.831V358.95l100.33-49.87zM479 288.091V401.73l-85.701 42.754l-.072-113.111L479 288.092zm0-39.738V136.997l-85.792 42.682v112.28L479 248.353zm-256.415-1.495l-67.669-34.05v147.064L64.491 167.91c-.988-2.048-5.043-4.283-6.083-4.836L0 133.266v259.916l60.163 32.25V289.516l82.731 159.115c.851 1.722 9.027 18.29 17.825 24.113c11.678 7.767 61.82 37.918 61.82 37.918l.046-263.803z"/></svg>
+            <iconify-icon icon="logos:numpy" width="14"></iconify-icon>
             Numpy    
           </li>
-          <li>
-            <img src="./images/images/Matplotlib.svg" width="14">
-            Matplotlib    
-          </li>
           <li>  
-            <!-- <img src="./images/images/pandas.png" width="14"> -->
-            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img"  width="1.5em" height="1.2em"  preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="black" d="M16.922 0h2.623v18.104h-2.623zm-4.126 12.94h2.623v2.57h-2.623zm0-7.037h2.623v5.446h-2.623zm0 11.197h2.623v5.446h-2.623zM4.456 5.896h2.622V24H4.455zm4.213 2.559h2.623v2.57H8.67zm0 4.151h2.623v5.447H8.67zm0-11.187h2.623v5.446H8.67Z"/></svg>
+            <iconify-icon icon="simple-icons:pandas" style="color: #000;" width="14"></iconify-icon>
             Pandas 
           </li>
+          <li>
+            <iconify-icon icon="logos:matplotlib-icon" width="14"></iconify-icon>
+            Matplotlib    
+          </li>
+          <li>
+            <iconify-icon icon="logos:seaborn-icon" width="14"></iconify-icon>
+            Seaborn    
+          </li>
+
           <li>   
-            <!-- <img src="./images/images/sklearn.svg" width="14"> -->
-            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1.5em" height="1.2em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="black" d="M15.601 5.53c-1.91.035-3.981.91-5.63 2.56c-2.93 2.93-2.083 8.53-1.088 9.525c.805.804 6.595 1.843 9.526-1.088a9.74 9.74 0 0 0 .584-.643c.043-.292.205-.66.489-1.106a1.848 1.848 0 0 1-.537.176c-.144.265-.37.55-.676.855c-.354.335-.607.554-.76.656a.795.795 0 0 1-.437.152c-.35 0-.514-.308-.494-.924c-.22.316-.425.549-.612.7a.914.914 0 0 1-.578.224c-.194 0-.36-.09-.496-.273a1.03 1.03 0 0 1-.193-.507a4.016 4.016 0 0 1-.726.583c-.224.132-.47.197-.74.197c-.3 0-.543-.096-.727-.288a.978.978 0 0 1-.257-.524v.004c-.3.276-.564.48-.79.611a1.295 1.295 0 0 1-.649.197a.693.693 0 0 1-.571-.275c-.145-.183-.218-.43-.218-.739c0-.464.101-1.02.302-1.67c.201-.65.445-1.25.733-1.797l.842-.312a.21.21 0 0 1 .06-.013c.063 0 .116.047.157.14c.04.095.061.221.061.38c0 .451-.104.888-.312 1.31c-.207.422-.532.873-.974 1.352c-.018.23-.027.388-.027.474c0 .193.036.345.106.458c.071.113.165.169.282.169a.71.71 0 0 0 .382-.13c.132-.084.333-.26.602-.523c.028-.418.187-.798.482-1.142c.324-.38.685-.569 1.08-.569c.206 0 .37.054.494.16a.524.524 0 0 1 .186.417c0 .458-.486.829-1.459 1.114c.088.43.32.646.693.646a.807.807 0 0 0 .417-.117c.129-.076.321-.243.575-.497c.032-.252.118-.495.259-.728c.182-.3.416-.544.701-.73c.285-.185.537-.278.756-.278c.276 0 .47.127.58.381l.677-.374h.186l-.292.971c-.15.488-.226.823-.226 1.004c0 .19.067.285.202.285c.086 0 .181-.045.285-.137c.104-.092.25-.232.437-.42v.001c.143-.155.274-.32.392-.494c-.19-.084-.285-.21-.285-.375c0-.17.058-.352.174-.545c.116-.194.275-.29.479-.29c.172 0 .258.088.258.265c0 .139-.05.338-.149.596c.367-.04.687-.32.961-.842l.228-.01c1.059-2.438.828-5.075-.83-6.732c-1.019-1.02-2.408-1.5-3.895-1.471zm4.725 8.203a8.938 8.938 0 0 1-1.333 2.151a1.09 1.09 0 0 0-.012.147c0 .168.047.309.14.423c.092.113.206.17.34.17c.296 0 .714-.264 1.254-.787c-.001.04-.003.08-.003.121c0 .146.012.368.036.666l.733-.172c0-.2.003-.357.01-.474c.01-.157.033-.33.066-.517c.02-.11.07-.216.152-.315l.186-.216a5.276 5.276 0 0 1 .378-.397c.062-.055.116-.099.162-.13a.26.26 0 0 1 .123-.046c.055 0 .083.035.083.106c0 .07-.052.236-.156.497c-.194.486-.292.848-.292 1.084c0 .175.046.314.136.418a.45.45 0 0 0 .358.155c.365 0 .803-.269 1.313-.808v-.381c-.361.426-.623.64-.784.64c-.109 0-.163-.067-.163-.2c0-.1.065-.316.195-.65c.19-.486.285-.836.285-1.048a.464.464 0 0 0-.112-.319a.36.36 0 0 0-.282-.127c-.165 0-.354.077-.567.233c-.213.156-.5.436-.863.84c.053-.262.165-.622.335-1.08l-.809.156a6.54 6.54 0 0 0-.399 1.074c-.04.156-.07.316-.092.48a7.447 7.447 0 0 1-.49.45a.38.38 0 0 1-.229.08a.208.208 0 0 1-.174-.082a.352.352 0 0 1-.064-.222c0-.1.019-.214.056-.343c.038-.13.12-.373.249-.731l.308-.849zm-17.21-2.927c-.863-.016-1.67.263-2.261.854c-1.352 1.352-1.07 3.827.631 5.527c1.7 1.701 4.95 1.21 5.527.632c.467-.466 1.07-3.827-.631-5.527c-.957-.957-2.158-1.465-3.267-1.486zm12.285.358h.166v.21H15.4zm.427 0h.166v.865l.46-.455h.195l-.364.362l.428.684h-.198l-.357-.575l-.164.166v.41h-.166zm1.016 0h.166v.21h-.166zm.481.122h.166v.288h.172v.135h-.172v.717c0 .037.006.062.02.075c.012.013.037.02.074.02a.23.23 0 0 0 .078-.01v.141a.802.802 0 0 1-.136.014a.23.23 0 0 1-.15-.043a.15.15 0 0 1-.052-.123v-.79h-.141v-.136h.141zm-3.562.258c.081 0 .15.012.207.038c.057.024.1.061.13.11s.045.106.045.173h-.176c-.006-.111-.075-.167-.208-.167a.285.285 0 0 0-.164.041a.134.134 0 0 0-.06.117c0 .035.015.065.045.088c.03.024.08.044.15.06l.16.039a.47.47 0 0 1 .224.105c.047.046.07.108.07.186a.3.3 0 0 1-.052.175a.327.327 0 0 1-.152.116a.585.585 0 0 1-.226.041c-.136 0-.24-.03-.309-.088c-.069-.059-.105-.149-.109-.269h.176c.004.037.01.065.017.084a.166.166 0 0 0 .034.054c.044.043.112.065.204.065a.31.31 0 0 0 .177-.045a.139.139 0 0 0 .067-.119a.116.116 0 0 0-.038-.09a.287.287 0 0 0-.124-.055l-.156-.038a1.248 1.248 0 0 1-.159-.05a.359.359 0 0 1-.098-.061a.22.22 0 0 1-.058-.083a.32.32 0 0 1-.016-.108c0-.096.036-.174.109-.232a.45.45 0 0 1 .29-.087zm1.035 0a.46.46 0 0 1 .202.043a.351.351 0 0 1 .187.212a.577.577 0 0 1 .023.126h-.168a.256.256 0 0 0-.078-.168a.242.242 0 0 0-.17-.06a.248.248 0 0 0-.155.05a.306.306 0 0 0-.1.144a.662.662 0 0 0-.034.224a.58.58 0 0 0 .035.214a.299.299 0 0 0 .101.135a.261.261 0 0 0 .157.048c.142 0 .227-.084.256-.252h.167a.519.519 0 0 1-.065.22a.35.35 0 0 1-.146.138a.464.464 0 0 1-.216.048a.448.448 0 0 1-.246-.066a.441.441 0 0 1-.161-.192a.703.703 0 0 1-.057-.293c0-.085.01-.163.032-.233a.522.522 0 0 1 .095-.182a.403.403 0 0 1 .15-.117a.453.453 0 0 1 .191-.04zm.603.03h.166v1.046H15.4zm1.443 0h.166v1.046h-.166zm-5.05.618c-.08 0-.2.204-.356.611c-.155.407-.308.977-.459 1.71c.281-.312.509-.662.683-1.05c.175-.387.262-.72.262-.999a.455.455 0 0 0-.036-.197c-.025-.05-.056-.075-.093-.075zm4.662 1.797c-.221 0-.431.188-.629.563c-.197.376-.296.722-.296 1.038c0 .12.029.216.088.29a.273.273 0 0 0 .223.111c.221 0 .43-.188.625-.565c.196-.377.294-.725.294-1.043a.457.457 0 0 0-.083-.29a.269.269 0 0 0-.222-.104zm-2.848.007c-.146 0-.285.11-.417.333c-.133.222-.2.51-.2.866c.566-.159.849-.452.849-.881c0-.212-.077-.318-.232-.318Z"/></svg>
-            Sklearn
+            <iconify-icon icon="simple-icons:scikitlearn" style="color: #000;" width="14"></iconify-icon>
+            Scikit Learn
           </li>
 					<li>
-            <img src="./images/images/Tensorflow_.svg" width="14">
-            <!-- <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1.5em" height="1.2em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32"><path fill="black" d="m26.135 16l.13 6.266l-4.13-2.401v8.938l-5.469 3.198v-32l13.599 7.865v7.068l-8.13-4.797v3.599zM1.734 7.865L15.333 0v32l-5.469-3.198V10.135l-8.13 4.797z"/></svg> -->
-            Tensorflow
+            <iconify-icon icon="logos:tensorflow" width="14"></iconify-icon>
+            Tensorflow / Keras
           </li>
 					<li>
-            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1.5em" height="1.2em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1536 1792"><path fill="black" d="M768 768q237 0 443-43t325-127v170q0 69-103 128t-280 93.5t-385 34.5t-385-34.5T103 896T0 768V598q119 84 325 127t443 43zm0 768q237 0 443-43t325-127v170q0 69-103 128t-280 93.5t-385 34.5t-385-34.5t-280-93.5T0 1536v-170q119 84 325 127t443 43zm0-384q237 0 443-43t325-127v170q0 69-103 128t-280 93.5t-385 34.5t-385-34.5t-280-93.5T0 1152V982q119 84 325 127t443 43zM768 0q208 0 385 34.5t280 93.5t103 128v128q0 69-103 128t-280 93.5T768 640t-385-34.5T103 512T0 384V256q0-69 103-128t280-93.5T768 0z"/></svg>
+            <iconify-icon icon="logos:mysql" width="14"></iconify-icon>
             SQL
 					</li>
 					<li>
-						<!-- <img src="./images/images/docker.webp" width="16"> -->
-            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1.5em" height="1.5em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32"><path fill="black" d="M12 6v3H6v3H3v3h-.938a1 1 0 0 0-.78.406s-.087.106-.126.188c-.039.082-.066.207-.093.312a2.97 2.97 0 0 0-.094.813c0 .687.082 1.449.281 2.218A5.83 5.83 0 0 0 1 19h.281a9.42 9.42 0 0 0 .969 2.313c.012.019.02.042.031.062v.031c.059.242.203.453.406.594l.032.031c.168.235.336.465.531.688c1.637 1.883 4.277 3.312 8.031 3.312c5.766 0 10.758-2.375 13.75-7.031h5.063c-.633-.16-2.008-.39-1.782-1.219c-.699.809-1.992.98-3.062.844c.352-.582.68-1.195.969-1.844c1.656-.097 2.914-.656 3.625-1.343c.812-.786 1.062-1.688 1.062-1.688a1 1 0 0 0-.312-1.031s-1.512-1.059-3.688-.844c-.746-1.992-2.312-2.969-2.312-2.969a1.006 1.006 0 0 0-.688-.125a.987.987 0 0 0-.437.219s-.457.406-.813 1.063c-.355.656-.676 1.652-.562 2.906c.043.46.324.867.5 1.312c-.125.078-.242.168-.407.25a4.689 4.689 0 0 1-2.093.469H20v-3h-3V6zm2 2h1v1h-1zm-6 3h1v1H8zm3 0h1v1h-1zm3 0h1v1h-1zm10.344.313c.36.406.75.98.906 1.812a1.004 1.004 0 0 0 1.25.781c.906-.246 1.566-.168 2.031-.031c-.054.066-.02.055-.093.125c-.458.441-1.223.934-2.813.875a1.007 1.007 0 0 0-.969.625c-.449 1.113-.972 2.113-1.593 3c-1.477.574-4.762.152-5.032-.594c-.976 1.145-3.988 1.145-4.968 0c-.317.88-4.876 1.285-5.657.157c-.629.585-2.918.976-4.218.093A7.56 7.56 0 0 1 3.03 17h17.063a6.72 6.72 0 0 0 2.968-.688a6.794 6.794 0 0 0 1.219-.75a.983.983 0 0 0 .469-.671a.988.988 0 0 0-.188-.797c-.265-.348-.417-.774-.468-1.313c-.063-.703.097-1.11.25-1.469zM5 14h1v1H5zm3 0h1v1H8zm3 0h1v1h-1zm3 0h1v1h-1zm3 0h1v1h-1zM3.406 19h19.282c-2.633 3.406-6.614 5.031-11.407 5.031c-2.511 0-4.273-.676-5.531-1.656c2.125-.074 3.656-.625 3.656-.625a1.002 1.002 0 1 0-.5-1.938c-.054.016-.105.04-.156.063c0 0-2.191.719-4.781.406A7.067 7.067 0 0 1 3.406 19zm7.313.188a.601.601 0 0 0-.594.593c0 .32.273.594.594.594c.32 0 .562-.273.562-.594a.583.583 0 0 0-.031-.218a.253.253 0 0 1-.219.125c-.133 0-.219-.118-.219-.25c0-.09.024-.149.094-.188c-.066-.027-.113-.063-.187-.063z"/></svg>
+            <iconify-icon icon="vscode-icons:file-type-docker" width="14"></iconify-icon>
             Docker
 					</li>
 					<li>
-						<img src="https://camo.githubusercontent.com/7ce5427fcb303b16c8bb375b4835e85242dd0e8e3fc973fbf6eb1daa5b7db924/68747470733a2f2f7777772e6b65726e656c2e6f72672f7468656d652f696d616765732f6c6f676f732f66617669636f6e2e706e67" alt="Tux (Linux Mascot) favicon" data-canonical-src="https://www.kernel.org/theme/images/logos/favicon.png" style="max-width: 100%" width="16">
+            <iconify-icon icon="logos:linux-tux"  width="14"></iconify-icon>
 						Linux, Bash
 					</li>
 					<li>
-						<!-- <img src="./images/images/cloud.png" width="15"> -->
-            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img"  width="1.5em" height="1.2em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="black" d="M6 10v5h12v-5Zm7 3H7v-1h6Zm1.5 0a.5.5 0 1 1 .5-.5a.5.5 0 0 1-.5.5Zm2 0a.5.5 0 1 1 .5-.5a.5.5 0 0 1-.5.5ZM6 17v5h12v-5Zm7 3H7v-1h6Zm1.5 0a.5.5 0 1 1 .5-.5a.5.5 0 0 1-.5.5Zm2 0a.5.5 0 1 1 .5-.5a.5.5 0 0 1-.5.5Z"/><path fill="black" d="M22.965 8a5.35 5.35 0 0 0-3.615-1.96a7.492 7.492 0 0 0-14-2A5.904 5.904 0 0 0 4 4.365A5.98 5.98 0 0 0 4 15.65V8h16v7.9a5.003 5.003 0 0 0 4-4.9a4.908 4.908 0 0 0-1.035-3Z"/></svg>
-						Cloud Computing
+            <iconify-icon icon="logos:aws" width="14"></iconify-icon>
+						AWS Cloud Computing
 					</li>
 					<li>
-						<!-- <img src="./images/images/rasa.png" width="15"> -->
-            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img"  width="1.5em" height="1.2em"  preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="black" d="m20.848 15.852l-3.882-2.034H.97V7.515h22.06v6.303h-2.182v2.034ZM0 6.545v8.243h16.727l5.091 2.667v-2.667H24V6.545H0Zm1.94 1.94h4.12v2.18l-1.33.517l1.362 1.666H4.84l-1.06-1.296l-.87.339v.957h-.97V8.485ZM8 12.848h-.97V8.485h4.364v4.363h-.97v-1.454H8v1.454Zm4.364-1.696V8.485h4.363v.97h-3.394v.727h3.394v2.666h-4.363v-.97h3.394v-.726h-3.394Zm5.333-.243V8.485h4.364v4.363h-.97v-1.454h-2.424v1.454h-.97V10.91Zm-14.788-.06l2.182-.848v-.546H2.909v1.395ZM8 9.456v.97h2.424v-.97H8Zm13.09.97v-.97h-2.423v.97h2.424Z"/></svg>
+            <iconify-icon icon="simple-icons:rasa" style="color: #5516e2;" width="14"></iconify-icon>
 						Rasa Open Source
 					</li>
-					<!-- <li>  
-            <img src="./images/images/kubernetes.webp" width="15">
-            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1.5em" height="1.3em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32"><path fill="black" d="m15.134 17.189l.865.416l.863-.415l.214-.931l-.597-.747h-.961l-.599.745l.215.932zm-.917-3.309l.002.002a.524.524 0 0 0 .832-.401v-.003l.013-.007l.178-3.141a6.52 6.52 0 0 0-.633.11a6.2 6.2 0 0 0-2.973 1.617l2.575 1.826zm-1.382 2.382h.003a.524.524 0 0 0 .206-.902l-.003-.002l.003-.012l-2.351-2.104a6.178 6.178 0 0 0-.875 3.9l3.014-.87zm1.03 2.239a.523.523 0 0 0-.606-.399h-.004l-.005-.006l-3.09.525a6.205 6.205 0 0 0 2.486 3.11l1.197-2.893l-.009-.012l.001-.003a.518.518 0 0 0 .03-.322zm2.597 1.142l-.001-.002a.53.53 0 0 0-.48-.276a.527.527 0 0 0-.444.277l-.001.003h-.003l-1.52 2.748a6.228 6.228 0 0 0 3.38.172a6.6 6.6 0 0 0 .604-.168l-1.523-2.754zm2.275-1.553h-.003a.51.51 0 0 0-.12-.009a.526.526 0 0 0-.455.732v.002l-.003.006l1.21 2.923a6.185 6.185 0 0 0 2.494-3.134l-3.118-.527zm2.552-4.846l-2.338 2.092l.001.007l-.002.002a.525.525 0 0 0 .205.901h.004l.002.014l3.03.872a6.292 6.292 0 0 0-.902-3.888zm-4.35.223v.003a.516.516 0 0 0 .114.304a.524.524 0 0 0 .719.097l.002-.002l.01.004l2.558-1.814a6.23 6.23 0 0 0-3.584-1.729l.177 3.136z"/><path fill="black" d="M30.38 19.038L27.903 8.27a1.906 1.906 0 0 0-1.038-1.29L16.83 2.188a1.933 1.933 0 0 0-1.666 0L5.133 6.982a1.907 1.907 0 0 0-1.038 1.29L1.619 19.04a1.89 1.89 0 0 0 .261 1.459a1.836 1.836 0 0 0 .109.151l6.944 8.634a1.924 1.924 0 0 0 1.5.716l11.135-.002a1.925 1.925 0 0 0 1.5-.715l6.942-8.635a1.891 1.891 0 0 0 .37-1.61Zm-3.81-.13a.643.643 0 0 1-.782.443h-.004l-.005-.001l-.007-.002l-.005-.002l-.057-.012a1.785 1.785 0 0 1-.098-.022a2.464 2.464 0 0 1-.359-.132c-.057-.025-.117-.052-.18-.076l-.018-.006a5.52 5.52 0 0 0-1.028-.301a.412.412 0 0 0-.296.098l-.037.025l-.002.002h-.002a8.946 8.946 0 0 0-.252-.045a7.817 7.817 0 0 1-3.459 4.351c.01.022.02.05.031.081a.935.935 0 0 0 .067.157l.002.002l-.001.003l-.017.042a.415.415 0 0 0-.03.309a5.69 5.69 0 0 0 .533.951c.037.057.075.109.112.16a2.4 2.4 0 0 1 .21.32c.016.03.037.075.055.113l.023.049a.608.608 0 1 1-1.095.517l-.022-.045a2.518 2.518 0 0 1-.052-.11a2.506 2.506 0 0 1-.121-.365c-.017-.06-.034-.121-.054-.185l-.006-.016a5.544 5.544 0 0 0-.405-.993a.418.418 0 0 0-.263-.17l-.041-.013h-.002l-.001-.002l-.06-.108l-.066-.12a7.887 7.887 0 0 1-1.027.31a7.759 7.759 0 0 1-4.51-.324l-.135.244l-.002.001a.481.481 0 0 0-.256.124a2.283 2.283 0 0 0-.336.721c-.04.117-.08.238-.128.357a3.74 3.74 0 0 0-.054.188a2.475 2.475 0 0 1-.12.362a1.57 1.57 0 0 1-.05.103l-.024.05v.002l-.002.002a.677.677 0 0 1-.595.394a.548.548 0 0 1-.24-.054a.643.643 0 0 1-.258-.86l.027-.058l.05-.104a2.53 2.53 0 0 1 .21-.322c.037-.05.075-.103.112-.158a5.82 5.82 0 0 0 .543-.976a.589.589 0 0 0-.053-.336v-.004l.107-.257a7.822 7.822 0 0 1-3.46-4.32l-.26.044v-.001l-.027-.015a.596.596 0 0 0-.316-.106a5.545 5.545 0 0 0-1.028.301l-.017.007a5.321 5.321 0 0 0-.178.073a2.495 2.495 0 0 1-.362.133c-.03.008-.07.017-.11.025l-.045.01l-.005.002l-.007.002h-.009a.608.608 0 1 1-.27-1.18h.005l.005-.002h.006l.046-.012c.04-.01.081-.02.114-.026a2.413 2.413 0 0 1 .38-.035c.064-.003.129-.006.196-.011l.015-.002a5.554 5.554 0 0 0 1.062-.177a.72.72 0 0 0 .231-.227l.024-.032l.001-.001h.002l.247-.072a7.777 7.777 0 0 1 1.224-5.413l-.19-.17v-.002l-.004-.027a.598.598 0 0 0-.115-.316a5.617 5.617 0 0 0-.892-.627a4.398 4.398 0 0 0-.171-.094a2.473 2.473 0 0 1-.327-.197a2.327 2.327 0 0 1-.09-.072l-.035-.028l-.005-.003l-.005-.004a.705.705 0 0 1-.26-.435a.573.573 0 0 1 .112-.458A.584.584 0 0 1 8 9.53a.723.723 0 0 1 .421.159l.037.028l.097.078a2.525 2.525 0 0 1 .267.276c.04.047.082.095.128.144l.01.01a5.522 5.522 0 0 0 .8.72a.416.416 0 0 0 .31.041l.042-.007h.002l.001.001c.036.026.149.107.214.151a7.727 7.727 0 0 1 3.923-2.24a7.967 7.967 0 0 1 1.082-.166l.014-.252a.649.649 0 0 0 .195-.308a5.578 5.578 0 0 0-.066-1.08l-.001-.008a3.799 3.799 0 0 0-.033-.192a2.561 2.561 0 0 1-.05-.38V6.4l.001-.05v-.017a.609.609 0 1 1 1.21 0l.002.06v.11a2.535 2.535 0 0 1-.05.38a3.938 3.938 0 0 0-.032.192l-.004.032a5.448 5.448 0 0 0-.064 1.056a.413.413 0 0 0 .162.267l.033.03l.002.001v.002c.001.044.008.184.013.264a7.79 7.79 0 0 1 2.718.756a7.881 7.881 0 0 1 2.263 1.65l.226-.161h.002l.031.002a.591.591 0 0 0 .33-.041a5.489 5.489 0 0 0 .787-.71l.022-.022c.045-.048.086-.095.127-.142a2.57 2.57 0 0 1 .27-.278c.026-.023.062-.05.097-.078l.036-.029a.609.609 0 1 1 .755.948l-.044.035c-.03.026-.063.052-.088.071a2.473 2.473 0 0 1-.327.197c-.056.03-.114.06-.173.095a5.689 5.689 0 0 0-.892.627a.415.415 0 0 0-.108.293l-.004.044v.001l-.001.001l-.091.082a9.443 9.443 0 0 0-.119.107a7.798 7.798 0 0 1 1.25 5.4l.24.07h.001l.017.026a.601.601 0 0 0 .24.233a5.595 5.595 0 0 0 1.063.176h.012c.068.007.133.01.197.012a2.462 2.462 0 0 1 .38.035c.03.006.07.016.11.026l.064.015a.643.643 0 0 1 .512.74Z"/></svg>
-						kubernetes
-					</li> -->
-					<!-- <li>
-						<img src="https://camo.githubusercontent.com/5e5c1250f5a4ac801494024f95e2922ce21bd2342aaa6241a9c2fdd5ad9f4f8c/68747470733a2f2f636f6d6d6f6e6d61726b2e6f72672f696d616765732f6d61726b646f776e2d6d61726b2d6170706c652d746f7563682e706e67" alt="" data-canonical-src="https://commonmark.org/images/markdown-mark-apple-touch.png" style="max-width: 100%; position: relative; top: 3px" width="16">
-						Docs
-					</li> -->
+          
+					<li>
+            <iconify-icon icon="logos:microsoft-power-bi" width="14" height="13"></iconify-icon>
+						Power B.I. 
+					</li>
 				</ul>
 
-				<h1>Ml & ai algorithm</h1>
+      <!-- skills -->
+
+				<h1>Skills</h1>
 				<ul>
-          <!-- <h1><small>supervised learning</small></h1> -->
-					<li class="small-text">k-Nearest Neighbors</li>
-					<li class="small-text">Linear Regression and Logistic Regression</li>
-					<li class="small-text">Support Vector Machines (SVMs)</li>
-					<li class="small-text">Decision Trees and Random Forests</li>
-          <li class="small-text">Neural Networks </li>
-          <li class="small-text">Clustering (K-Means & DBSCAN & HCA)</li>
+          <li class="small-text">•  Data Visualisation & EDA</li>
+          <li class="small-text">•  Feature engineering,Feature selection & extraction</li>
+					<li class="small-text">•  Supervised ML algorithm</li>
+					<li class="small-text">•  UnSupervised ML algorithm</li>
+          <li class="small-text">•  Artificial Neural Network (ANN) </li>
+          <li class="small-text">•  Convolutional Neural Networks (CNN)</li>
+          <li class="small-text">•  Natural language processing (NLP) </li>
 				</ul>
-				<!-- <ul>
-          <h1><small>unsupervised learning</small></h1>
-					<li class="small-text">Neural Networks </li>
-					<li class="small-text">Clustering (K-Means & DBSCAN & HCA)</li>
-					<li class="small-text">PCA & t-SNE</li>
-					<li class="small-text">Reinforcement Learning</li>
-					<li class="small-text">Convolutional Neural Network</li>
-					<li class="small-text">Computer Vision</li>
-					<li class="small-text">NLU & Conversation AI (Chatbot)</li>
-				</ul> -->
-        <!-- <ul>
-          <h1>Certification</h1>
-          <li>Python for Everybody Specialization</li>
-          <li>Learn to Program: Crafting Quality Code</li> 
-          <li>AWS Certified Cloud Practitioner (CLF-C01)</li>
-        </ul> -->
+
+
+      <!-- hobbies -->
+
         <ul>
           <h1>Hobbies / interest</h1>
-          <li>&#x26FA Travelling | &#x1f3a8 Painting</li>
-          <li>&#127859 Cooking | &#127918 PC Game 
-          <li>&#128394 Blogging | &#128248 Photography</li>
+          <div class="row">
+            <div class="column">&#x26FA Travelling</div>
+            <div class="column">&#127918 PC Game</div>
+            <div class="column">&#127859 Cooking</div>
+            <div class="column">&#x1f3a8 Drawing</div>
+            <div class="column">&#128394 Blogging</div>
+            <div class="column">&#128248 Photography</div>
+          </div> 
         </ul>
-
       </div>
 
 
 
     </aside>
-
     <!-- to print pdf -->
-    <div class="noprint">
-      <center>
-        <div style="height: 2em">
-          &nbsp;
-          <br />
-          <button onclick="window.print();">Save as PDF</button>
-        </div>
-      </center>
-    </div>
+
   </body>
 </html>
