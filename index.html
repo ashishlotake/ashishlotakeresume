@@ -57,19 +57,10 @@
   </head>
   
   <body lang="en" class="content01" style="background-color:#111111;">
-    <!-- to print pdf -->
-    <div class="noprint">
-      <center>
-        <div style="height: 2em">
-          &nbsp;
-          <br />
-          <button class="button1" onclick="window.print();">Save as PDF</button>
-        </div>
-      </center>
-    </div>
+
     <section id="main" >
       <header id="title" style="width: 500px;">
-        <h1 style="font-size: 40px; font-weight: bold; color: #121212; text-transform: uppercase;">Ashish Lotake</h1>
+        <h1 style="font-size: 30px; font-weight: bold; color: #121212; text-transform: uppercase;">Ashish Lotake</h1>
         <!-- <span class="subtitle">Data Scientist / Analyst and Machine Learning &amp; Artificial Intelligence Engineer</span>
         <br><br> -->
         <span class="subtitle" style="font-weight: 400;">A dedicated and aspiring data scientist and machine learning engineer, wish to
@@ -387,6 +378,20 @@
 
     </aside>
     <!-- to print pdf -->
-
+    <div id="document-controls" >
+        <div style="height: 0em" class="noprint">
+          &nbsp;
+          <button style="padding-left: 30px; padding-right: 25px; padding-top: 5px; padding-bottom: 5px;"  onclick="window.print();">PRINT</button>
+        </div>
+        
+    </div>
+    <!-- hire me button -->
+    <div id="document-controls"  style="margin-top: 3em; background-color: transparent;">
+      <div class="noprint">
+        <a href="mailto:ashish@ashishlotake.com">
+        <button style="padding-left: 19px; padding-right: 19px; padding-top: 5px; padding-bottom: 5px;"  >HIRE ME</button>
+      </a>
+      </div>
+  </div>
   </body>
 </html>
