@@ -1,5 +1,23 @@
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: optional;
+  src: url(/fonts/ibm-plex-sans-var.woff2) format('woff2');
+}
+
+/* @font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: optional;
+  src: url(/fonts/ibm-plex-sans-var-italic.woff2) format('woff2');
+} */
+
+
+
 @page {
-  size: letter portrait;
+  size: a4 portrait;
   margin: 0;
 }
 
@@ -11,15 +29,14 @@
 }
 
 
-
 :root {
-  --page-width: 8.5in;
-  --page-height: 11in;
-  --main-width: 6.4in;
+  --page-width: 8.26772in;
+  --page-height: 11.6929in;
+  --main-width: 6.1in;
   --sidebar-width: calc(var(--page-width) - var(--main-width));
   --decorator-horizontal-margin: 0.2in;
 
-  --sidebar-horizontal-padding: 0.2in;
+  --sidebar-horizontal-padding: 0.15in;
 
   /* XXX: using px for very good precision control */
   --decorator-outer-offset-top: 10px;
@@ -38,7 +55,7 @@ body {
   width: var(--page-width);
   height: var(--page-height);
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
   font-weight: 300;
   line-height: 1.3;
   color: #444;
@@ -59,7 +76,7 @@ li {
 #main {
   float: left;
   width: var(--main-width);
-  padding: 0.25in 0.25in 0 0.25in;
+  padding: 0.2in 0.2in 0 0.2in;
   font-size: 8pt;
 }
 
@@ -68,9 +85,10 @@ li {
   position: relative; /* for disclaimer */
   width: var(--sidebar-width);
   height: 100%;
-  padding: 0.6in var(--sidebar-horizontal-padding);
+  padding: 0.4in var(--sidebar-horizontal-padding);
   background-color: #f2f2f2;
-  font-size: 8.5pt;
+  font-size: 9pt;
+  font-weight: 400;
 }
 
 /* main */
@@ -274,10 +292,14 @@ h2 {
 .details .place {
   float: left;
   font-size: 7.5pt;
+  /* font-style: italic; */
+  font-weight: 400;
 }
 
 .details .location {
   float: right;
+  font-weight: 400;
+
 }
 
 .details div {
@@ -344,7 +366,7 @@ h2 {
 #contact ul {
   margin-top: 0.05in;
   padding-left: 0;
-  font-family: "Source Code Pro";
+  font-family: "IBM Plex Sans";
   font-weight: 400;
   line-height: 1.75;
 }
@@ -376,7 +398,7 @@ h2 {
 
 .acknowledgement code {
   color: #666;
-  font-family: "Source Code Pro";
+  font-family: "IBM Plex Sans";
   font-weight: 400;
   font-style: normal;
 }
@@ -426,11 +448,11 @@ body > * {
 
 .ribbon {
   float: left;
-  margin-left:7px;
+  margin-left:5px;
   margin-bottom: 5px;
-  width: 150px;
-  height: 150px;
-  border-radius: 100%;
+  width: 170px;
+  height: 170px;
+  border-radius: 3%;
   overflow: hidden;
   /* background-color: blue; */
 }
