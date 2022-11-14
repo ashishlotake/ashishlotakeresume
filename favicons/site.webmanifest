@@ -1,5 +1,5 @@
 {
-    "name": "Ashish Lotake Resume",
+    "name": "Ashish Lotake | Resume",
     "short_name": "resume.ashishlotake.com",
     "description": "A dedicated and aspiring data scientist and machine learning engineer, wish to work for an institution that offers technical and personal growth.",
     "icons": [
@@ -25,5 +25,5 @@
     "dir": "ltr",
     "lang": "en-US",
     "orientation": "portrait-primary",
-    "start_url": "/index.html"
+    "start_url": "../index.html"
 }
