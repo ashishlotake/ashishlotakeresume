@@ -62,9 +62,10 @@ body {
   color: #444;
   hyphens: auto;
 
-  background-image: linear-gradient(rgb(14, 14, 14) 3px, transparent 2px), linear-gradient(90deg, rgb(14, 14, 14) 3px, transparent 2px), linear-gradient(rgb(12, 12, 12) 0.1px, transparent 2px), linear-gradient(90deg, rgb(12, 12, 12) 0.1px, transparent 2px);
-  background-size: 80px 80px, 80px 80px, 20px 20px, 20px 20px;
-  background-position: -200px -200px, -200px -200px, -100px -100px, -100px -100px;
+  background: radial-gradient(circle, #0e0e0e 10%, transparent 11%),radial-gradient(circle at bottom left, #0e0e0e 5%, transparent 6%),radial-gradient(circle at bottom right, #0e0e0e 5%, transparent 6%),radial-gradient(circle at top left, #0e0e0e 5%, transparent 6%),radial-gradient(circle at top right, #0e0e0e 5%, transparent 6%);
+  background-size: 3em 3em;
+  background-color: #ffffff;
+  opacity: 1
   display: flex;
   justify-content: center;
 }
